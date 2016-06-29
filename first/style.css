@@ -1,0 +1,74 @@
+
+
+body {
+  padding: 5vw;
+}
+
+.top-box-box {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.red {
+  background-color: #d0021b;
+}
+
+.blue {
+  background-color: #4a90e2;
+}
+
+.black {
+  background-color: #4a4a4a;
+}
+
+.top-box-box .item {
+  height: 100%;
+  width: 31%;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.75em;
+  font-weight: lighter;
+}
+
+.mid-box-box {
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.third {
+  width: 33.33%;
+}
+
+.mid {
+  width: 66.66%
+}
+
+.bottom-box-box {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+}
+
+.bottom-box-box div{
+  height: 100%;
+}
+
+.left {
+  height: 100%;
+  width: 66.6%;
+}
+.right {
+  width: 33.3%;
+}
+.smaller {
+  height: 100%;
+  width: 66%;
+  margin: 0 auto;
+}

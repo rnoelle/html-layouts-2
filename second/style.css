@@ -1,0 +1,76 @@
+body {
+  background-color: #ccc;
+}
+
+.top-section {
+  width: 75%;
+  margin: 30px auto;
+  background-color: white;
+  padding: 35px;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+.button-box {
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 0;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+button:nth-child(1) {
+  background: #d0021b;
+  margin-right: 20px;
+}
+
+button:nth-child(2) {
+  background: #4a90e2;
+}
+
+.bottom-section {
+  background: white;
+  width: 75%;
+  padding: 35px;
+  margin: 0 auto 20px auto;
+}
+
+.img-insert {
+  height: 40vh;
+  width: 100%;
+  background-image: url(http://www.visitftcollins.com/wp-content/uploads/2015/04/fort-collins-city-park-hot-air-balloons.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #222;
+  position: absolute;
+  bottom: 0;
+  height: 8vh;
+  padding: 30px 13% 25px 0;
+}
+
+footer ul {
+  float: right;
+}
+
+footer li {
+  color: white;
+  font-family: 'Verona', sans-serif;
+  font-size: 1.5em;
+  display: inline-block;
+  margin-left: 30px;
+}

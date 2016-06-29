@@ -1,0 +1,45 @@
+h2, h3, li {
+  font-family: 'Verdana', sans-serif;
+}
+
+header {
+  height: 9vh;
+  width: 100%;
+  background-color: #222;
+  padding: 3vh 6vh;
+}
+
+header li {
+  color: white;
+  font-size: 1.25em;
+  display: inline-block;
+  margin-right: 30px;
+}
+footer {
+  height: 9vh;
+  background-color: #222;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.main {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  padding: 8vh 7vh;
+}
+.main img {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  margin: 20px 0;
+}
